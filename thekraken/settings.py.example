@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+
+LOG_DIR = '/tmp'
+
+
+MAIL = {
+    'user': 'test',
+    'password': 'test',
+    'smtp_server': 'dummy.foo.test',
+    'sender': ['noreply@foo.test'],
+    'recipients': ['dummy@foo.test']
+}
+
+DOMAINS = [
+    ('foo.bar', '8.8.8.8')
+]
+
+MACHINES = [
+    'foo.bar'
+]
+
+SERVICES = [
+    ('foo.bar', 8112)
+]
+
+WEBPAGES = [
+    'http://foo.bar'
+]
